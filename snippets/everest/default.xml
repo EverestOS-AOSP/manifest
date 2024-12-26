@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="everest"
+          fetch="https://github.com/EverestOS-AOSP/"
+          revision="15" />
+
+  <remote name="everest-gitlab"
+          fetch="https://gitlab.com/everestos/"
+          revision="15" />
+
+  <!-- Rootdir -->
+  <project path="manifest" name="manifest" remote="everest" />
+  <project path="everest-maintainers" name="everest-maintainers" remote="everest" />
+
+  <!-- Build repos -->
+  <project path="build/make" name="build" remote="everest">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="everest">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- General repos -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="everest" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="everest" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="parasite" />
+
+  <!-- Device repos -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="everest" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="everest" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="everest" />
+
+  <!-- Clang repos -->
+  <project path="prebuilts/clang/kernel/linux-x86" name="prebuilts_clang_kernel_linux-x86" clone-depth="1" revision="15" remote="everest-gitlab" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" clone-depth="1" revision="15" remote="everest-gitlab" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/gms" name="clarencelol/android_vendor_gms" clone-depth="1" revision="15" remote="gitea" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="everest" />
+  <project path="vendor/everest/common" name="vendor_everest_common" remote="everest" >
+    <!-- add guards for kernel modules repositories -->
+    <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
+  </project>
+
+</manifest>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Device repos -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
-
   <!-- External repos -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/bson" name="android_external_bson" revision="lineage-20" remote="lineage" />
@@ -29,7 +26,6 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
 
   <!-- Prebuilts repos -->
-  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" revision="lineage-20.0" remote="lineage" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="lineage-19.1" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="lineage-19.1" remote="lineage" clone-depth="1" />
