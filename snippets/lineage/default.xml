@@ -8,6 +8,9 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" revision="f3f0485012135cbcff3822f129f3ac5b16c345b1" />
 
+  <!-- Package repos -->
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="lineage" />
+
   <!-- Hardware repos -->
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />

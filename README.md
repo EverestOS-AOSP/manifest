@@ -1,4 +1,4 @@
-# TheParasiteProject
+# EverestOS
 
 ## Build Process
 
@@ -9,31 +9,27 @@
 sudo apt install -y jq
 ```
 
-### Sync ###
-
-```bash
-
-# Initialize local repository
-repo init --depth=1 --no-repo-verify -u https://github.com/TheParasiteProject/manifest -b main -g default,-mips,-darwin,-notdefault --git-lfs
-
-# Sync
+### Initialize local repository
+```
+repo init -u https://github.com/EverestOS-AOSP/manifest -b 15 --git-lfs
+```
+### Sync
+```
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Build ###
 
-```bash
-
-# Set up environment
-$ . build/envsetup.sh
-
-# Choose a target
-$ lunch aosp_$device-userdebug
-
-# Build the code
-$ mka bacon -jX
+```
+. build/envsetup.sh
+```
+```
+lunch lineage_$device-ap4a-$build_type
+```
+```
+make everest -j$(nproc --all)
 ```
 
 ## Devices
 
-- [TheParasiteProject-Devices](https://github.com/TheParasiteProject-Devices)
+- [EverestOS-Devices](https://github.com/orgs/ProjectEverest-Devices/repositories)
