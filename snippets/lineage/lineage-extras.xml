@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Device repos -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
-
   <!-- External repos -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/bson" name="android_external_bson" revision="lineage-20" remote="lineage" />

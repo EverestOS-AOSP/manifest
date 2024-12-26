@@ -12,27 +12,13 @@
   <!-- General repos -->
   <project path="art" name="art" remote="parasite" />
   <project path="bionic" name="bionic" remote="parasite" />
-  <project path="build/make" name="build" remote="parasite">
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <project path="build/bazel" name="build_bazel" remote="parasite" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
-  <project path="build/soong" name="build_soong" remote="parasite">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="bootable/recovery" name="bootable_recovery" remote="parasite" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="parasite" />
   <project path="development" name="development" remote="parasite" />
   <project path="kernel/configs" name="kernel_configs" remote="parasite" />
-  <project path="manifest" name="manifest" remote="parasite" />
   <project path="platform_testing" name="platform_testing" remote="parasite" />
 
   <!-- Device repos -->
@@ -56,7 +42,6 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="parasite" />
-  <project path="frameworks/base" name="frameworks_base" remote="parasite" />
   <project path="frameworks/native" name="frameworks_native" remote="parasite" />
   <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="parasite" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="parasite" />
@@ -76,7 +61,6 @@
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="parasite" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="parasite" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="parasite" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="parasite" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="parasite" />

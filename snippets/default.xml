@@ -3,6 +3,7 @@
   <!-- Remotes -->
   <remote name="github" fetch="https://github.com/" />
   <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="gitea" fetch="https://gitea.com/" />
 
   <!-- Remove unused repos -->
   <include name="snippets/remove.xml" />
@@ -12,4 +13,7 @@
 
   <!-- Track LineageOS repos -->
   <include name="snippets/lineage/default.xml" />
+
+  <!-- Track EverestOS repos -->
+  <include name="snippets/everest/default.xml" />
 </manifest>
