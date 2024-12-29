@@ -21,7 +21,6 @@
   <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="parasite" />
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="parasite" />
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="parasite" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="parasite" />
   <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" remote="parasite" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="parasite" />
