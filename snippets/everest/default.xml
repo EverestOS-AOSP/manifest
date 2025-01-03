@@ -39,7 +39,8 @@
   <project path="frameworks/base" name="frameworks_base" remote="everest" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="everest" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="everest" revision="tweaks" />
+  <project path="packages/apps/Tweaks" name="packages_apps_Tweaks" remote="everest" revision="exp" />
 
   <!-- Clang repos -->
   <project path="prebuilts/clang/kernel/linux-x86" name="prebuilts_clang_kernel_linux-x86" clone-depth="1" revision="15" remote="everest-gitlab" />

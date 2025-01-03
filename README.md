@@ -11,7 +11,7 @@ sudo apt install -y jq
 
 ### Initialize local repository
 ```
-repo init -u https://github.com/EverestOS-AOSP/manifest -b 15 --git-lfs
+repo init -u https://github.com/EverestOS-AOSP/manifest -b exp --git-lfs
 ```
 ### Sync
 ```
