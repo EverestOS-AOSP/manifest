@@ -30,6 +30,8 @@
 
   <!-- General repos -->
   <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="parasite-gitlab" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
+  <project path="vendor/google/gms-common-proprietary" name="vendor_google_gms-common-proprietary" remote="parasite-gitlab" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
   <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="parasite" />
