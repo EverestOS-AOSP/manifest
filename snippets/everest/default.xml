@@ -43,6 +43,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" clone-depth="1" revision="15" remote="everest-gitlab" />
 
   <!-- Vendor repos -->
+  <project path="vendor/gms" name="clarencelol/android_vendor_gms" clone-depth="1" revision="15" remote="gitea" />
   <project path="vendor/lineage" name="vendor_lineage" remote="everest" />
   <project path="vendor/everest/common" name="vendor_everest_common" remote="everest" >
     <!-- add guards for kernel modules repositories -->
