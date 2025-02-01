@@ -45,7 +45,7 @@
   <!-- Vendor repos -->
   <project path="vendor/gms" name="clarencelol/android_vendor_gms" clone-depth="1" revision="15" remote="gitea" />
   <project path="vendor/lineage" name="vendor_lineage" remote="everest" />
-  <project path="vendor/everest/common" name="vendor_everest_common" remote="everest" >
+  <project path="vendor/everest/common" name="vendor_everest_common" remote="everest" revision="rebase" >
     <!-- add guards for kernel modules repositories -->
     <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
   </project>
