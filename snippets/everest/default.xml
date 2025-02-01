@@ -32,7 +32,7 @@
   <project path="lineage-sdk" name="lineage-sdk" remote="everest" />
 
   <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="everest" />
+  <project path="frameworks/base" name="frameworks_base" remote="everest" revision="rebase"/>
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="everest" />
