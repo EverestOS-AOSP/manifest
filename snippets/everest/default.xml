@@ -37,6 +37,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="everest" />
   <project path="packages/apps/Tweaks" name="packages_apps_Tweaks" remote="everest" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="everest" /> 
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="everest" />
 
   <!-- Prebuilt repos -->
