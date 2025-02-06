@@ -33,7 +33,6 @@
   <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="parasite" />
   <project path="vendor/google/packages/apps/SettingsGoogle" name="vendor_google_packages_apps_SettingsGoogle" remote="parasite" />
-  <project path="vendor/google/packages/apps/SystemUIGoogle" name="vendor_google_packages_apps_SystemUIGoogle" remote="parasite" />
   <project path="vendor/microsoft/mms" name="vendor_microsoft_mms" remote="parasite-gitlab" />
   <project path="vendor/parasite/certification" name="vendor_parasite_certification" remote="parasite-gitlab" />
   <project path="vendor/parasite/prebuilts" name="vendor_parasite_prebuilts" remote="parasite" />
