@@ -58,4 +58,7 @@
   <project path="vendor/google/packages/apps/SystemUIGoogle" name="vendor_google_packages_apps_SystemUIGoogle" remote="everest" />
   <project path="vendor/support" name="vendor_support" remote="everest" />
 
+  <!-- External repos -->
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="everest" />
+
 </manifest>
